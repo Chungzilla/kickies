@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(#000000, #020942, #491B44, #0E2997, #83211A);
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+.nominees{
+    border: black solid 2px;
+    margin: 0px 200px;
+}
+div{
+    margin: 150px;
+    padding-top: 10px;
+}
+.header{
+    font-family: 'Monoton', cursive;
+    font-size: 4em;
+    color: rgb(173, 42, 33);
+    text-shadow: 5px 5px #491B44;
+}
+
+#main-pic{
+    width: 100px;
+    height: auto;
+}
+
+.winner-pic{
+    width: 400px;
+    height: auto;
+    border: black solid 2px;
+    box-shadow: 10px 10px;
+}
+
+
+.nominee-pic {
+    width: 250px;
+    height: auto;
+    border: black solid 2px;
+    box-shadow: 5px 5px;
+}
+
+p{
+    font-weight: bold;
+}
+
+#cat1{
+    background-color: #83211A;
+    font-family: 'Lobster', cursive;
+}
+
+#cat2{
+    font-family: 'Indie Flower', cursive;
+    background-color: #0E2997;
+}
+
+#cat3{
+    font-family: 'Pacifico', cursive;
+    background-color: #491B44;
+}
+
+#cat4{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #041069;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
